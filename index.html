@@ -20,13 +20,13 @@
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="ΗΛΕΚΤΡΙΣΜΟΣ" />
-    <script type="application/ld+json" async>
+    <script type="application/ld+json" defer>
       {"@context":"https://schema.org","@type":"WebSite","headline":"kvsthkaw.github.io","name":"ΗΛΕΚΤΡΙΣΜΟΣ","url":"https://kvsthkaw.github.io"}
     </script>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <meta property="og:image" content="ΜΗΝ ΑΚΟΥΜΠΑΣ!.jpg" />
     <link rel="stylesheet" href="assets/css/style.min.css" />
-    <meta http-equiv="refresh" content=";url=https://kvsthkaw.github.io" />
+    <meta http-equiv="refresh" content="https://kvsthkaw.github.io" />
   </head>
   <body>
     <header>
@@ -34,13 +34,22 @@
         PDF
       </button>
     </header>
-    <main>
+    <main id="ΕΔΩ">
       <h1>
-        Σωματίδια:
+        Πρωτόνια+Νετρόνια+Ηλεκτρόνια=Άτομο. Αν ο πληθυσμός των ηλεκτρονίων και ο αριθμός των πρωτονίων ταυτίζονται το άτομο είναι ηλεκτρικώς αφόρτιστο σαν νετρόνιο. Τα ηλεκτρόνια είναι αρνητικά ενώ τα πρωτόνια θετικά. Η μάζα του πρωτονίου είναι λίγο μικρότερη του νετρονίου και 1836 φορές μεγαλύτερη του ηλεκτρονίου.
       </h1>
-      <h2>
-        
-      </h2>
     </main>
+    <script defer>
+      const colors=['red', 'blue', 'green', 'orange', 'purple']
+      ;
+      let i=0
+      ;
+      function changeColor(){
+	      document.getElementById('ΕΔΩ').style.color=colors[i}
+        ;
+	      i=(i+1)%colors.length
+      }
+      setInterval(changeColor, 1)
+    </script>
   </body>
 </html>
